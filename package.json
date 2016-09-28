@@ -1,0 +1,37 @@
+{
+  "name": "meetup-checkins-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "cors": "2.8.0",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "method-override": "2.3.6",
+    "mongoose": "4.5.9",
+    "morgan": "~1.7.0"
+  },
+  "description": "This project exposes an API that can be used to query the attendees who have checked in for a meetup.com event",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indcoder/meetup-checkins-api.git"
+  },
+  "keywords": [],
+  "author": "Augustine Correa <augcor@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indcoder/meetup-checkins-api/issues"
+  },
+  "homepage": "https://github.com/indcoder/meetup-checkins-api#readme",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "3.0.2",
+    "sinon": "1.17.5",
+    "sinon-mongoose": "1.2.1"
+  }
+}
